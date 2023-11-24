@@ -9,3 +9,5 @@ begeistert : nadšený
 das Merkmal : znak
 der Streit : hádka
 überzeugen : přesvědčit
+verlassen : opustit, odejít
+der Eindruck : dojem, stopa
