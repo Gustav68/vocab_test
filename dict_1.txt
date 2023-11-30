@@ -1,13 +1,13 @@
-die Barriere : zábrana
-die Schranken : závory
+die Barriere : zabrana
+die Schranken : zavory
 beeinflussen : ovlivnit
-das Verhalten : chování
+das Verhalten : chovani
 erziehen : vychovat
-unartig : zlobivý
+unartig : zlobivy
 vergelten : oplatit
-begeistert : nadšený
+begeistert : nadseny
 das Merkmal : znak
-der Streit : hádka
-überzeugen : přesvědčit
-verlassen : opustit, odejít
+der Streit : hadka
+überzeugen : presvedcit
+verlassen : opustit, odejit
 der Eindruck : dojem, stopa
