@@ -1,4 +1,5 @@
 import random
+import os
 
 def open_dict(path):
   opened_dict = {} 
@@ -57,6 +58,15 @@ def test(test_dict, mode):
   return(rate)
   
 def main():
+  dict_files = []
+  files = os.listdir()
+  print(files)
+  print(len(files))
+  for i in range(len(files)):
+    if files[i][-4:]== ".txt":
+      dict_files.append(files[i])
+  
+  print(dict_files)
   selected_dict = "dict_1.txt"
   test_dict = open_dict(selected_dict)
   
