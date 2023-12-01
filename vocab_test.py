@@ -1,6 +1,18 @@
 import random
 import os
 
+def select_dict():
+  dict_files = []
+  files = os.listdir()
+  for i in range(len(files)):
+    if files[i][-4:]== ".txt":
+      dict_files.append(files[i])
+  for j in range(len(dict_files)):
+    print(f"{j+1}. {dict_files[j]}")
+  dict_number = int(input("Select number of the dictionary: "))
+  selected_dict = dict_files[dict_number-1]
+  return(selected_dict)
+  
 def open_dict(path):
   opened_dict = {} 
   with open(path, "r", encoding='utf-8') as file:
@@ -58,16 +70,7 @@ def test(test_dict, mode):
   return(rate)
   
 def main():
-  dict_files = []
-  files = os.listdir()
-  print(files)
-  print(len(files))
-  for i in range(len(files)):
-    if files[i][-4:]== ".txt":
-      dict_files.append(files[i])
-  
-  print(dict_files)
-  selected_dict = "dict_1.txt"
+  selected_dict = select_dict()
   test_dict = open_dict(selected_dict)
   
   mode = int(input("""Select one of these options:

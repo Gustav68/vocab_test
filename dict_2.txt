@@ -10,5 +10,3 @@ laut : hlucny
 ungeduldig : netrpelivy
 unbeständig : nestaly
 sich strecken : protahnout se
-
-
