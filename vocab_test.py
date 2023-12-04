@@ -45,6 +45,8 @@ def test(test_dict, mode):
         print(value_test)
       
       trans = input("Translation: ")
+      if trans == "END":
+        return
       total += 1
       check = False
       
